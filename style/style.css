@@ -1,0 +1,825 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.body {
+    margin: 0 auto;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+    margin: 0 auto;
+    width: 1366px;
+}
+
+.slider {
+    height: 800px;
+    background-image: url(../img/1.jpg);
+    padding-left: 98px;
+    padding-right: 98px;
+    position: relative;
+}
+
+.header {
+    padding-top: 63px;
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.menu {
+    float: right;
+}
+
+.menu-list {
+    float: left;
+}
+
+.menu-list {
+    list-style-type: none;
+}
+
+.menu-link {
+    color: #8c8c8c;
+    font-size: 14px;
+    font-weight: 300;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 10px 13px;
+}
+
+.menu-link:hover {
+    color: #212121;
+    font-weight: 300;
+    border-bottom: 3px solid #212121;
+}
+
+.slider-trending {
+    color: #43a047;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+}
+
+.slider-text {
+    margin-top: 288px;
+}
+
+.slider-h2 {
+    color: #212121;
+    font-size: 62px;
+    font-weight: 100;
+    text-transform: uppercase;
+    letter-spacing: -2px;
+}
+
+.slider-content {
+    color: #6c6c6c;
+    font-size: 14px;
+    font-weight: 300;
+    width: 458px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    line-height: 24px;
+}
+
+.button {
+    color: #212121;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    box-shadow: 0px 2px 5px 0px rgba(33, 33, 33, 0.34);
+    background-color: #ffffff;
+    border-radius: 22.5px;
+    text-decoration: none;
+    width: 220px;
+    height: 53px;
+    text-align: center;
+    line-height: 53px;
+    display: inline-block;
+    letter-spacing: 0.2em;
+}
+
+.button:hover {
+    background-color: rgb(151, 148, 148);
+}
+
+.circle {
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    background-color: #c7c7c7;
+    border-radius: 50%;
+    margin: 5px;
+}
+
+.circle:hover {
+    background: #212121;
+}
+
+.circle-active {
+    width: 40px;
+    height: 40px;
+    background-color: #212121;
+    margin-bottom: 0;
+}
+
+.pagination {
+    position: absolute;
+    width: 1170px;
+    bottom: 19px;
+    text-align: center;
+}
+
+.logo:hover {
+    background-color: #e4e2e2;
+}
+
+/*Второй слайд*/
+.slider2 {
+    margin: 0 auto;
+}
+
+.tab-control {
+    margin-top: 120px;
+    margin-right: 98px;
+    margin-left: 98px;
+}
+
+.tab-control-ul {
+    list-style-type: none;
+
+}
+
+.tab-control-li {
+    float: left;
+}
+
+.tab-control-a {
+    color: #6c6c6c;
+    text-decoration: none;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.2;
+    padding: 0px 10px 10px 10px;
+    border-bottom: 1px solid #6c6c6c;
+}
+
+.tab-control-a-active {
+    font-size: 36px;
+    line-height: 1.2;
+    font-weight: 700;
+    color: #212121;
+    border-bottom: 3px solid #212121;
+
+}
+
+.explore {
+    float: right;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    color: #212121;
+}
+
+.explore:hover {
+    color: #424242;
+}
+
+.img {
+    clear: both;
+    padding-top: 72px;
+    margin-left: 98px;
+    margin-right: 98px;
+}
+
+.img2345 {
+    margin-right: 30px;
+    float: left;
+    width: 270px;
+    height: 270px;
+}
+
+.img23452 {
+    margin: 0px;
+}
+
+.img2345-img {
+    position: relative;
+    width: 270px;
+    height: 270px;
+}
+
+.img2345-position {
+    width: 270px;
+    height: 270px;
+}
+
+.img2345-invisible {
+    width: 270px;
+    height: 270px;
+    text-align: center;
+    position: absolute;
+    opacity: 0;
+    background-color: rgba(255, 255, 255, 0.788);
+    transition: all 1s;
+}
+
+.img2345-invisible:hover {
+    opacity: 1;
+}
+
+.circle-arrow {
+    box-shadow: 0px 2px 5px 0px rgba(33, 33, 33, 0.342);
+    width: 56px;
+    height: 56px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    line-height: 67px;
+    margin-top: 66px;
+}
+
+.fishnet {
+    font-size: 22px;
+    line-height: 29px;
+    font-weight: 700;
+    color: #212121;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.seatand {
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: 300;
+    color: #6c6c6c;
+}
+
+/* третий слайд*/
+.slider3 {
+    margin-top: 120px;
+    height: 683px;
+    display: inline-block;
+}
+
+.slider31 {
+    background-image: url(../img/10.jpg);
+    clear: both;
+    height: 683px;
+    width: 683px;
+    background-size: cover;
+    float: left;
+    box-sizing: border-box;
+}
+
+.slider32 {
+    background-image: url(../img/11.jpg);
+    height: 683px;
+    width: 683px;
+    background-size: cover;
+    float: left;
+    box-sizing: border-box;
+}
+
+.slider31-text,
+.slider32-text {
+    padding-left: 52px;
+}
+
+.slider-exclusive {
+    font-size: 18px;
+    line-height: 48px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: #1e88e5;
+    margin-top: 228px;
+}
+
+.slider3-h2 {
+    font-size: 36px;
+    line-height: 1.2;
+    font-weight: 700;
+    color: #212121;
+}
+
+.slider3-content {
+    font-size: 14.1px;
+    line-height: 24px;
+    font-weight: 300;
+    color: #6c6c6c;
+    width: 374px;
+    margin-top: 24px;
+    margin-bottom: 33px;
+}
+
+/*четвертый слайд*/
+.slider4 {
+    margin-left: 98px;
+    margin-right: 98px;
+    clear: both;
+    height: 1100px;
+}
+
+.slider4-h2 {
+    font-size: 36px;
+    line-height: 1.2;
+    font-weight: 700;
+    color: #212121;
+    float: left;
+    margin-top: 119px;
+}
+
+.explore4 {
+    float: right;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    color: #212121;
+    margin-top: 137px;
+}
+
+.explore4:hover {
+    color: #424242;
+}
+
+
+.slider6img {
+    clear: both;
+    padding-top: 64px;
+}
+
+.slider4-6img {
+    float: left;
+    margin: 0px 20px 20px 0px;
+}
+
+/* пятый слайд */
+.slider5 {
+    background-image: url(../img/30.jpg);
+    height: 800px;
+    position: relative;
+}
+
+.slider5-text {
+    height: 800px;
+    padding-left: 98px;
+    overflow: hidden;
+}
+
+.slider5-hot {
+    font-size: 18px;
+    line-height: 48px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: #e53935;
+    margin-top: 287px;
+}
+
+.slider5-h2 {
+    font-size: 62px;
+    line-height: 72px;
+    font-weight: 100;
+    text-transform: uppercase;
+    color: #212121;
+}
+
+.slider-content {
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 300;
+    color: #6c6c6c;
+}
+
+.pagination5 {
+    position: absolute;
+    width: 1170px;
+    bottom: 19px;
+    text-align: center;
+}
+
+/* Шестой слайд */
+
+.slider6 {
+    padding-left: 98px;
+    padding-right: 98px;
+    margin-top: 120px;
+    width: 100%;
+    height: 570px;
+    position: relative;
+}
+
+.slider6-1 {
+    width: 540px;
+    height: 570px;
+    background-image: url(../img/41.jpg);
+    padding-left: 31px;
+}
+
+.slider-exclusive6 {
+    font-size: 18px;
+    line-height: 48px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: #1e88e5;
+    padding-top: 186px;
+}
+
+.slider6-img4 {
+    height: 570px;
+    width: 570px;
+    position: absolute;
+    right: 196px;
+    top: 0px;
+}
+
+.slider6-img4-link {
+    float: left;
+    margin-bottom: 30px;
+    margin-right: 30px;
+    margin-left: -90px;
+}
+
+.slider6-img4-link1 {
+    margin-right: 0px;
+    margin-left: 0;
+}
+
+/* Седьмой слайд */
+
+.slider7 {
+    height: 950px;
+    background-color: #f7f7f7;
+    margin-top: 120px;
+}
+
+.slider7-img {
+    background-image: url(../img/50.jpg);
+    height: 516px;
+    overflow: hidden;
+    padding-left: 98px;
+}
+
+.slider7-img-text1 {
+    font-size: 18px;
+    line-height: 48px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: #6c6c6c;
+    margin-top: 127px;
+
+}
+
+.slider7-img-text2 {
+    font-size: 60px;
+    line-height: 72px;
+    font-weight: 100;
+    text-transform: uppercase;
+    color: #212121;
+    width: 480px;
+    overflow: hidden;
+    letter-spacing: -2px;
+}
+
+.slider7-img-text3 {
+    font-size: 22px;
+    line-height: 24px;
+    font-weight: 300;
+    color: #6c6c6c;
+    margin-top: 0px;
+    margin-bottom: 30px;
+}
+
+.slider7-footer {
+    margin-top: 120px;
+    padding-left: 98px;
+    padding-right: 98px;
+}
+
+.contacts {
+    display: flex;
+}
+
+.contacts1 {
+    margin-right: 80px;
+}
+
+.contacts2 {
+    margin-right: 78px;
+}
+
+.ull {
+    display: flex;
+}
+
+.contacts2-ul1 {
+    margin-right: 98px;
+}
+
+.contacts1-h3 {
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: #6c6c6c;
+    padding-bottom: 24px;
+}
+
+.contacts1-p {
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 300;
+    color: #212121;
+    width: 221px;
+}
+
+.contacts1-p-b {
+    padding-bottom: 30px;
+}
+
+.contacts2-ul1 a,
+.contacts2-ul2 a {
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 26px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: #212121;
+}
+
+.contacts2-ul1,
+.contacts2-ul2 {
+    list-style-type: none;
+}
+
+.contacts2-ul1 a:hover,
+.contacts2-ul2 a:hover {
+    color: #424242;
+}
+
+.contacts3-p {
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 300;
+    color: #212121;
+    width: 363px;
+    margin-bottom: 26px;
+}
+
+#polevvoda1 {
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 300;
+    color: #6c6c6c;
+    width: 314px;
+    height: 48px;
+    padding-left: 20px;
+}
+
+
+.fieldset {
+    width: 320px;
+}
+
+.footer {
+    margin-top: 77px;
+    display: flex;
+}
+
+.copyright {
+    font-size: 12px;
+    line-height: 26px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: #6c6c6c;
+    margin-right: 148px;
+}
+
+.imglink {
+    margin-right: 172px;
+}
+
+.imglink-a {
+    margin-right: 2px;
+}
+
+.terms {
+    font-size: 12px;
+    line-height: 26px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: #6c6c6c;
+}
+
+.terms a {
+    text-decoration: none;
+    color: #6c6c6c;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Вторая страница (контакты) */
+/* первый слайд */
+.container-contact {
+    margin: 0 auto;
+    width: 1366px;
+}
+
+.slider-contact {
+    background-color: #f5f5f5;
+    padding-left: 98px;
+    padding-right: 98px;
+    height: 360px;
+}
+
+.contact-h1 {
+    font-size: 62px;
+    line-height: 72px;
+    font-weight: 100;
+    color: #212121;
+    margin-top: 171px;
+}
+
+/* Второй слайд */
+.slider2-contact {
+    height: 370px;
+    margin-left: 98px;
+    margin-right: 98px;
+    margin-top: 71px;
+}
+
+.slider2-contact-img {
+    height: 370px;
+    width: 370px;
+    text-align: center;
+    opacity: 0.9;
+    border: 1px solid #9c9c9c;
+    background-color: #ffffff;
+    float: left;
+}
+
+.map-marker {
+    margin-top: 48px;
+    margin-bottom: 34px;
+    width: 48px;
+}
+
+.california {
+    font-size: 22px;
+    line-height: 29px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #212121;
+    margin-bottom: 23px;
+}
+
+.slider2-contact-h5 {
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 500;
+    color: #6c6c6c;
+}
+
+.slider2-contact-p1 {
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 700;
+    color: #212121;
+}
+
+.slider2-contact>div:nth-child(-n+2) {
+    margin-right: 27px;
+}
+
+/* третий слайд футер */
+.slider3-contact {
+    height: 384px;
+    background-color: #f7f7f7;
+    margin-top: 122px;
+
+}
+
+.slider-footer-contact {
+    margin-left: 98px;
+    margin-right: 98px;
+    padding-top: 70px;
+}
+
+
+
+
+
+
+/* Третья страница продукты */
+.container-products {
+    margin: 0 auto;
+    width: 1366px;
+}
+
+.products-h1 {
+    font-size: 62px;
+    line-height: 72px;
+    font-weight: 100;
+    color: #212121;
+    margin-top: 171px;
+}
+
+/* второй слайд */
+.slider2-products {
+    margin-left: 98px;
+    margin-right: 98px;
+    height: 1000px;
+}
+
+.header-products {
+    margin-top: 71px;
+}
+
+.menu2 {
+    list-style-type: none;
+}
+
+.menu-list2 {
+    float: left;
+    border-bottom: 1px solid #000;
+
+    padding-bottom: 10px;
+
+}
+
+.menu-link-2 {
+    text-decoration: none;
+    line-height: 1.2;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: #6c6c6c;
+    padding: 10px 20px;
+}
+
+.menu-link-2:hover {
+    color: #212121;
+    border-bottom: 3px solid #000;
+
+}
+
+
+
+/* второй слайд картинки */
+.slider2-products-img {
+    padding-top: 72px;
+    clear: both;
+}
+
+.slider2-products-img12 {
+    float: left;
+    margin: 0px 30px 30px 0px;
+}
+
+.slider2-products-img12-2 {
+    margin-right: 0;
+}
+
+.reload {
+    text-align: center;
+    padding-top: 41px;
+    clear: both;
+}
+.reload-img {
+    width: 42px;
+}
+
+/* Третий слайд */
+.slider4-contact {
+    height: 400px;
+    background-color: #f7f7f7;
+    margin-top: -4px;
+}
